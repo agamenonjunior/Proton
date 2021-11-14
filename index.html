@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proton Solution</title>
+
+        <!--AOS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+        <!-- font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <!-- css-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--swipper-->
+        <link  rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+    </head>
+    <body>
+        <!--HEADER INICIO-->
+        <section id="home">
+        <header class="header">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="" srcset="">
+                
+            </a>
+            <form action="" method="post" class="busca">
+                <input
+                    type="search"
+                    name="searchBox"
+                    placeholder="o que procura ?"
+                    id="searchBox"
+                >
+                <label for="searchBox" class="fas fa-search"></label>
+            </form>
+            <div class="icons">
+                <div class="fas fa-search" id="busca-btn"></div>
+                <div class="fas fa-moon" id="theme-btn"></div>
+                <div class="fas fa-user" id="login-btn"></div>
+                <div class="fas fa-bars" id="menu-btn"></div>
+            </div>
+            <!--menu oculto-->
+            <div class="navbar">
+                <a href="#home" id="home">home</a>
+                <a href="#packages" id="home">pacote</a>
+                <a href="#service" id="home">serviços</a>
+                <a href="#price" id="home">preços</a>
+                <a href="#review" id="home">depoimentos</a>
+                <a href="#contato" id="home">contato</a>
+                <a href="#blog" id="home">blog</a>
+            </div>
+            <!--Fim menu oculto-->
+            <form action="" method="post" class="login-form">
+                <div class="inputbox">
+                    <span>E-mail</span>
+                    <input type="text" placeholder="E-mail">
+                </div>
+                <div class="inputbox">
+                    <span>Senha</span>
+                    <input type="password">
+                </div>
+                <div class="remember">
+                    <input type="checkbox" id="login-remember">
+                    <label for="login-remember">Lembrar me</label>
+                </div>
+                <div class="inputbox">
+                    <input type="submit" class="btn" value="Login">
+                </div>
+            </form>
+        </header>
+        <!--HEADER FIM-->
+        <!--CONTENT INICIO-->
+        <section class="home" id="home">
+            <div class="img"  data-aos="fade-down">
+                <img src="img/Ecology_Monochromatic.png" alt="" srcset="">
+            </div>
+            <!--fim img-->
+            <div class="content"  data-aos="fade-up">
+                <h3>Energia Solar é mais do que economia, é transformação!</h3>
+                <p>Energia solar é o melhor investimento para o seu negócio e para o seu lar. Além de economizar em até 95% na conta de luz do seu imóvel você conta com dezenas de benefícios que vão transformar sua experiência com a energia elétrica.</p>
+                <a href="tel:98153-3992" class="btn">saiba +</a>
+            </div>
+        </section>
+        <!-- marcacao -->
+        <section class="form-container" data-aos="fade-up" >
+            <form action="" class="form-container">
+                <div class="inputBox">
+                    <span>Serviço</span>
+                    <input
+                        type="text"
+                        placeholder="precisa de qual serviço ?"
+                        name=""
+                        id=""
+                    >
+                </div>
+                <div class="inputBox">
+                    <span>contato</span>
+                    <input type="text" placeholder="informe seu contato..." name="" id="">
+                </div>
+                <div class="inputBox">
+                    <span>Data da visita</span>
+                    <input
+                        type="date"
+                        placeholder=""
+                        name=""
+                        id=""
+                    >
+                </div>
+                <div class="inputBox">
+                    <input
+                        type="submit"
+                        value="agendar"
+                        class="btn"
+                        name=""
+                        id=""
+                    >
+                </div>
+            </form>
+        </section>
+
+    </section>
+        <!--marcacao fim -->
+
+        <!-- card -->
+        
+        <section class="packages" id="packages" data-aos="fade-down">
+            <h1 class="heading">Nossos
+                <span>Pacotes</span>
+            </h1>
+
+            <div class="container-box">
+                <div class="box">
+                    <div class="image">
+                        <img src="img/iluminacao.jpg" alt="" srcset="">
+                        <h3>
+                            <i class="fas fa-sun"></i> Iluminação
+                        </h3>
+                    </div>
+                    <div class="content">
+                        <div class="price">Solicite orçamento
+                            <span></span>
+                        </div>
+                        <p>Fundamental Para Valorizar A Arquitetura E A Decoração</p>
+                        <a href="#contato" class="btn">Orçamento</a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <div class="image">
+                        <img src="img/pexels-pixabay-356036.jpg" alt="" srcset="">
+                        <h3>
+                            <i class="fas fa-solar-panel"></i> Projetos E Instalações De Geradores Fotovoltaicos
+                        </h3>
+                    </div>
+                    <div class="content">
+                        <div class="price">Solicite orçamento
+                            <span></span>
+                        </div>
+                        <p>O Painel Solar No Telhado Da Casa Gera Energia Elétrica</p>
+                        <a href="#contato" class="btn">Orçamento</a>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <div class="image">
+                        <img src="img/instalacao-eletrica-industrial.jpg" alt="" srcset="">
+                        <h3>
+                            <i class="fas fa-solar-panel"></i> Manutenção E Instalação Elétrica
+                        </h3>
+                    </div>
+                    <div class="content">
+                        <div class="price">Solicite orçamento
+                            <span></span>
+                        </div>
+                        <p> As Sobrecargas Podem Gerar Graves Acidentes Pessoais E incendios</p>
+                        <a href="#contato" class="btn">Orçamento</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+        </section>
+
+        <!-- card  FIM-->
+
+        <!-- SERVIÇOS -->
+
+        <section class="service" id="service">
+            <h1 class="heading">
+                Nossos <span>Serviços</span>
+            </h1>
+
+            <div class="box-container">
+                <div class="box" data-aos="fade-up">
+                    <span>01</span>
+                    <i class="fas fa-solar-panel"></i>
+                    <h3>Projeto de Iluminação e decoração</h3>
+                    <p>Um bom projeto de iluminação na hora de construir ou reformar é fundamental para valorizar a arquitetura e a decoração </p>
+                    <a href="#contato" class="btn">Saiba+</a>
+                </div>
+
+                <div class="box" data-aos="fade-up">
+                    <span>02</span>
+                    <i class="fas fa-solar-panel"></i>
+                    <h3>Manutenção e Instalação Elétrica</h3>
+                    <p>Com o tempo, as sobrecargas podem gerar graves acidentes pessoais e, não raro, ocasionar incêndios,  Falta de manutenção, já que as instalações elétricas residenciais também precisam de um check-up a cada 10 anos </p>
+                    <a href="#contato" class="btn">Saiba+</a>
+                </div>
+
+
+                <div class="box" data-aos="fade-up">
+                    <span>03</span>
+                    <i class="fas fa-solar-panel"></i>
+                    <h3>Projetos e Instalações de geradores fotovoltaicos</h3>
+                    <p>O painel solar no telhado da casa gera energia elétrica (em corrente continua) quando a Luz do Sol bate nele</p>
+                    <a href="#contato" class="btn">Saiba+</a>
+                </div>
+
+                <div class="box" data-aos="fade-up">
+                    <span>04</span>
+                    <i class="fas fa-solar-panel"></i>
+                    <h3>Projetos de iluminação pública e privada</h3>
+                    <p>A energia elétrica e a iluminação pública são a base das cidades inteligentes; parcerias público-privadas (PPPs) têm papel fundamental.</p>
+                    <a href="#contato" class="btn">Saiba+</a>
+                </div>
+
+                <div class="box" data-aos="fade-up">
+                    <span>05</span>
+                    <i class="fas fa-solar-panel"></i>
+                    <h3>Projetos Elétrico</h3>
+                    <p> Tão importante quanto os projetos arquitetônico e estrutural, o projeto elétrico planeja como funcionará toda a fiação elétrica </p>
+                    <a href="#contato" class="btn">Saiba+</a>
+                </div>
+
+                <div class="box" data-aos="fade-up">
+                    <span>06</span>
+                    <i class="fas fa-solar-panel"></i>
+                    <h3>Instalações elétricas e prediais</h3>
+                    <p>a implementação física dos componentes das ligações elétricas, a conexão entre a fonte geradora de energia elétrica e as cargas elétricas.</p>
+                    <a href="#contato" class="btn">Saiba+</a>
+                </div>
+                
+                <div class="box" data-aos="fade-up">
+                    <span>07</span>
+                    <i class="fas fa-solar-panel"></i>
+                    <h3>Bomba Solar</h3>
+                    <p>Kit para bombeamento de água utilizando energia solar, Ela é responsável por bombear água em locais remotos onde não existe conexão de energia com a rede elétrica. </p>
+                    <a href="#contato" class="btn">Saiba+</a>
+                </div>
+
+                <div class="box" data-aos="fade-up">
+                    <span>08</span>
+                    <i class="fas fa-solar-panel"></i>
+                    <h3>Projetos e reformas elétrica</h3>
+                    <p>Com um planejamento elétrico impecável, o projeto de instalações elétricas prevê economia com custos no processo de construção e/ou reforma elétrica</p>
+                    <a href="#contato" class="btn">Saiba+</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVIÇOS FIM-->
+
+
+        <!--PREÇOS-->
+        <!--        <section class="price" id="price">
+            <h1 class="heading">Tabela de <span>Preços</span></h1>
+            <div class="box-container">
+                <div class="box" data-aos="flip-left">
+                    <h3>Plano básico</h3>
+                    <div class="price">
+                        <span>R$</span>
+                        <span class="amount">30</span>
+                        <span>/Mês</span>
+                    </div>
+                    <ul>
+                        <li>10 dias</li>
+                        <li>comida</li>
+                        <li>bebida</li>
+                        <li>festa</li>
+                        <li>luxo</li>
+                    </ul>
+                    <a href="#" class="btn">Contratar</a>
+                </div>
+
+                <div class="box" data-aos="fade-up">
+                    <h3>Plano padrão</h3>
+                    <div class="price">
+                        <span>R$</span>
+                        <span class="amount">30</span>
+                        <span>/Mês</span>
+                    </div>
+                    <ul>
+                        <li>10 dias</li>
+                        <li>comida</li>
+                        <li>bebida</li>
+                        <li>festa</li>
+                        <li>luxo</li>
+                    </ul>
+                    <a href="#" class="btn">Contratar</a>
+                </div>
+
+                <div class="box" data-aos="flip-right">
+                    <h3>Plano premium</h3>
+                    <div class="price">
+                        <span>R$</span>
+                        <span class="amount">30</span>
+                        <span>/Mês</span>
+                    </div>
+                    <ul>
+                        <li>10 dias</li>
+                        <li>comida</li>
+                        <li>bebida</li>
+                        <li>festa</li>
+                        <li>luxo</li>
+                    </ul>
+                    <a href="#" class="btn">Contratar</a>
+                </div>
+            </div>
+        </section>
+        -->
+
+        <!--PREÇOS FIM-->
+
+        <!--REVIEW-->
+        <section class="review" id="review" data-aos="fade-up">
+            <h1 class="heading">
+                Nossos <span>Cliente</span>
+            </h1>
+
+            <div class="swiper mySwiper review-slide ">
+                <div class="swiper-wrapper wrappe">
+                    <div class="swiper-slide slide">
+                        <img src="img/vale.png" alt="" srcset="">
+                        <h3>Vale</h3>
+                        <p>Realizou um ótimo serviço</p>
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="fas fa-star-half-stroke"></i>
+                        </p>
+                    </div>
+
+
+                    <div class="swiper-slide slide">
+                        <img src="img/alcoa.png" alt="" srcset="">
+                        <h3>Alcoa</h3>
+                        <p>Realizou o serviço rápido</p>
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="fas fa-star-half-stroke"></i>
+                        </p>
+                    </div>
+
+                    
+                    <div class="swiper-pagination"></div>
+                </div>
+                
+            </div>
+        </section>
+         <!--REVIEW FIM-->
+          <!--CONTATO--> 
+        <section class="contato" id="contato" data-aos="fade-up">
+            <h1 class="heading">Fale <span> Conosco </span></h1>
+            <form action="" method="post">
+
+                <div class="inputBox">
+                    <input type="text" name="nome" placeholder="Nome" id="">
+                    <input type="email" name="email" placeholder="E-mail" id="">
+                </div> 
+                <div class="inputBox">
+                    <input type="number" name="telefone" placeholder="Telefone" id="">
+                    <input type="text" name="assunto" placeholder="Assunto" id="">
+                </div>
+
+                <textarea name="msg" placeholder="Mensagem" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar" class="btn">
+
+            </form>
+        </section>
+        
+
+         <!--CONTATO FIM -->
+
+         <!-- BLOG -->
+
+         <section class="blog" id="blog" data-aos="fade-up">
+            <h1 class="heading">Ultimas <span> Notícias </span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="img">
+                        <img src="img/pexels-pixabay-356036.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Titulo</h3>
+                        <a href="#" class="btn">Saiba mais</a>
+                        <div class="icons">
+                            <a href="#"><i class="fas fa-calendar"></i>Em  06/11</a>
+                            <a href="#"><i class="fas fa-paper-plane"></i>Compartilhar</a>
+                            <a href="#"><i class="fas fa-user"></i>por Admin</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="img">
+                        <img src="img/pexels-pixabay-356036.jpg" alt="" class="img">
+                    </div>
+                    <div class="content">
+                        <h3>Titulo</h3>
+                        <a href="#" class="btn">Saiba mais</a>
+                        <div class="icons">
+                            <a href="#"><i class="fas fa-calendar"></i>Em  06/11</a>
+                            <a href="#"><i class="fas fa-paper-plane"></i>Compartilhar</a>
+                            <a href="#"><i class="fas fa-user"></i>por Admin</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="img">
+                        <img src="img/pexels-pixabay-356036.jpg" alt="" class="img">
+                    </div>
+                    <div class="content">
+                        <h3>Titulo</h3>
+                        <a href="#" class="btn">Saiba mais</a>
+                        <div class="icons">
+                            <a href="#"><i class="fas fa-calendar"></i>Em  06/11</a>
+                            <a href="#"><i class="fas fa-paper-plane"></i>Compartilhar</a>
+                            <a href="#"><i class="fas fa-user"></i>por Admin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+         <!-- BLOG FIM-->
+
+        <!--CONTENT FIM-->
+        <!--FOOTER INICIO-->
+            <section class="footer">
+                <div class="box-container">
+                    <div class="box">
+                        <h3>Nossa Filiais</h3>
+                        <a href="#"><i class=" fas fa-map-marked-alt"></i>São Luis</a>
+                        <a href="#"><i class=" fas fa-map-marked-alt"></i>Paço do Lumiar</a>
+                        <a href="#"><i class=" fas fa-map-marked-alt"></i>Ribamar</a>
+                    </div>
+
+
+                    <div class="box">
+                        <h3>Links Rápidos</h3>
+                        <a href="#home"><i class=" fas fa-chevron-right"></i> Home</a>
+                        <a href="#packages"><i class=" fas fa-chevron-right"></i >Pacotes</a>
+                        <a href="#service"><i class=" fas fa-chevron-right"></i> Serviços</a>
+                        <a href="#price"><i class=" fas fa-chevron-right"></i> preços</a>
+                        <a href="#review"><i class=" fas fa-chevron-right"></i> Reviews</a>
+                        <a href="#contato"><i class=" fas fa-chevron-right"></i> Home</a>
+                        <a href="#blog"><i class=" fas fa-chevron-right"></i >Blog</a>                        
+                    </div>
+
+
+                    <div class="box">
+                        <h3>Formas de Contato</h3>
+                        <a href="tel:98153-3992"><i class=" fas fa-phone"></i> +55 98 9 8153-3992</a>
+                        <a href="mailto:celio.lucena@protonsolution.com.br"><i class=" fas fa-envelope"></i> celio.lucena@protonsolution.com.br</a>
+                        <a href="#"><i class=" fas fa-map-marked-alt"></i> avenida 1 maiobao</a>
+                    </div>
+
+
+                    <div class="box">
+                        <h3>Rede Sociais</h3>
+                        <a href="tel:98153-3992"><i class="fab fa-whatsapp"></i>9 8153-3992</a>
+                        <a href="#"><i class=" fab fa-facebook"></i>protonSolutuion</a>
+                        <a href="#"><i class="fab fa-instagram"></i>@protonSolutuion</a>
+                    </div>
+                </div>
+
+                <div class="creditos">
+                    &copy; Proton Solution todos os direitos reservados | Desenvolvido por <span><a href="#" target="_blank"> Agamenon Junior</a></span>
+                </div>
+            </section>
+        
+        <!--FOOTER FIM-->
+        <!--AOS-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+
+        <!--swipper-->
+        <!-- Swiper JS -->
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+        var swiper = new Swiper(".review-slide", {});
+        </script>
+         <!-- js-->
+         <script src="js/script.js"></script>
+
+        
+    </body>
+</html>
